@@ -1,0 +1,181 @@
+.orders {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100vh;
+    background: rgba(245, 245, 220, 0.99);
+    transform: scale(1);
+}
+
+.close {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    position: relative;
+    top: 20px;
+    left: 260px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.OrdersClose {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+    background: rgba(245, 245, 220, 0.99);
+    border: 1px solid black;
+    transform: scale(0);
+}
+
+/* карточка */
+
+.containerCard {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 200px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+    gap: 8px;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.cardImg {
+    width: 100%;
+    height: 160px;
+}
+
+.cardImg:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.heart {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.heart:hover {
+    transform: translateY(-2px);
+}
+
+.discont {
+    position: absolute;
+    top: 118px;
+    left: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Rubik';
+    background: #FF6633;
+    border-radius: 4px;
+}
+
+.bodyPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceForCard {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.priceDefault {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.forCard,
+.default {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #BFBFBF;
+}
+
+.stars {
+    align-self: flex-start;
+    margin-left: 8px;
+    display: flex;
+    gap: 4px;
+}
+
+.starActive,
+.starFalse {
+    cursor: pointer;
+}
+
+.starActive,
+.starFalse:hover {
+    transform: scale(1.1);
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #70C05B;
+    border-radius: 4px;
+    background: transparent;
+    color: #70C05B;
+    margin-top: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #FF6633;
+    color: #fff;
+}
+
+.btn:active {
+    transform: scale(0.99);
+}
+
+.cardTextContent {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

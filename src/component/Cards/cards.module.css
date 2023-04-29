@@ -1,0 +1,117 @@
+.cardMain {
+    padding: 50px 124 50px 115;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FBF8EC;
+}
+
+.cards {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 272px;
+    height: 349px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+    gap: 8px;
+    justify-content: space-between;
+    padding: 0px 0px 8px 0;
+}
+.cardImg {
+    width: 100%;
+    height: 160px;
+}
+.cardImg:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.heart {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.heart:hover {
+    transform: translateY(-2px);
+}
+
+.discont {
+    position: absolute;
+    top: 118px;
+    left: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Rubik';
+    background: #FF6633;
+    border-radius: 4px;
+}
+
+.bodyPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceForCard {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.priceDefault {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.forCard,
+.default {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #BFBFBF;
+}
+.btn {
+    width: 256px;
+    height: 40px;
+    border: 1px solid #70C05B;
+    border-radius: 4px;
+    background: transparent;
+    color: #70C05B;
+    margin-top: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    align-self: center;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #FF6633;
+    color: #fff;
+}
+.btn:active {
+    transform: scale(0.99);
+}
+
+.cardTextContent {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

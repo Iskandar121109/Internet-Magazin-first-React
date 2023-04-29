@@ -1,0 +1,70 @@
+.social {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    background: #FBF8EC;
+    padding: 40px 124px 120px 115px;
+}
+
+.decor {
+    width: 584px;
+    height: 200px;
+    background: #FCD5BA;
+    box-shadow: 0px 8px 16px rgba(202, 147, 96, 0.5);
+    border-radius: 4px;
+    display: flex;
+}
+
+.buyPromo {
+    width: 584px;
+    height: 200px;
+    background: #E5FFDE;
+    border-radius: 4px;
+}
+
+.decorContent {
+    margin: 30px 21px 44px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.socTitle {
+    width: 258px;
+    height: 72px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #414141;
+}
+
+.text {
+    width: 258px;
+    height: 48px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: start;
+}
+
+.decorPhoto {
+    width: 258px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 31px 8px 0;
+    transition: 0.8 linear;
+    cursor: pointer;
+}
+
+.decorPhoto img:hover {
+    transform: scale(1.15) rotate(10deg);
+}
+.buyPromo {
+    display: flex;
+}

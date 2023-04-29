@@ -1,0 +1,32 @@
+.titles {
+    background: #FBF8EC;
+    padding: 80px 116px 0px 116px;
+}
+.title {
+    display: flex;
+    height: 54px;
+    width: 100%;
+    align-items: center;
+}
+
+.title h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    width: 80%;
+    color: #414141;
+    text-align: start;
+}
+
+.title div {
+    width: 20%;
+    width: 168px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    color: #606060;
+    cursor: pointer;
+}

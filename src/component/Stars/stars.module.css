@@ -1,0 +1,15 @@
+.stars {
+    align-self: flex-start;
+    margin-left: 8px;
+    display: flex;
+    gap: 4px;
+}
+
+.starActive,
+.starFalse {
+    cursor: pointer;
+}
+.starActive,
+.starFalse:hover {
+    transform: scale(1.1);
+}

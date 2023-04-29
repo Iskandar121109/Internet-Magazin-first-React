@@ -1,0 +1,365 @@
+/*
+для смартфонов — 320 px, 480 px и выше;
+для планшетов — 768 px и выше;
+для нетбуков — 1024 px и выше; 
+ */
+
+.navbar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 124px 0 115px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.catalog {
+    background-color: #70C05B;
+    color: #fff;
+    display: flex;
+    width: 140px;
+    padding: 8px;
+    gap: 20px;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.catalog:hover {
+    background: #5dce41;
+}
+
+.catalModul {
+    position: absolute;
+    bottom: -201px;
+    left: 0;
+    height: 200px;
+    color: #fff;
+    width: 250px;
+    background: #70C05B;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transform: scale(0);
+    transition: 1s linear;
+}
+
+.catalModulShow {
+    position: absolute;
+    bottom: -201px;
+    left: 0;
+    height: 200px;
+    color: #fff;
+    width: 250px;
+    background: #70C05B;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transform: scale(1);
+    transition: 0.8 ease-in-out;
+
+}
+
+.catalModulShow p {
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    padding: 5px;
+}
+
+.catalModulShow p:hover {
+    transform: translateX(10px);
+    color: yellow;
+}
+
+.menu {
+    justify-content: center;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    flex-direction: column;
+    gap: 5.5px;
+}
+
+.menu span {
+    width: 19px;
+    height: 1px;
+    border-radius: 1px;
+    background: #fff;
+}
+
+.catalogTitle {
+    font-size: 16px;
+}
+
+.search {
+    width: 375px;
+    height: 40px;
+    border: 1px solid #70C05B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+
+.search input {
+    width: 317px;
+    height: 24px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+
+.search img {
+    z-index: 5;
+}
+
+.prices {
+    margin-left: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.vip,
+.orders,
+.basket {
+    color: #414141;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.vip {
+    position: relative;
+}
+
+.vip img {
+    width: 21.9;
+    height: 19.23;
+}
+
+.vip span {
+    position: absolute;
+    top: -8px;
+    left: 29px;
+    background: #FF6633;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.orders {
+    position: relative;
+}
+
+.orders span {
+    position: absolute;
+    top: -8px;
+    left: 29px;
+    background: #FF6633;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.basket {
+    position: relative;
+}
+
+.basket span {
+    position: absolute;
+    top: -8px;
+    left: 29px;
+    background: #FF6633;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.users {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.users .arrDown {
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        padding: 0 12px 0 15px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+        width: 40px;
+        overflow: hidden;
+        display: flex;
+        gap: 1px;
+    }
+
+    .catalog {
+        display: flex;
+        gap: 5px;
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .search {
+        width: 215px;
+        height: 40px;
+        border: 1px solid #70C05B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        border-radius: 4px;
+        margin-left: 16px;
+    }
+
+    .search input {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        padding: 0 6px 0 7px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .catalog {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 5px;
+        width: 30px;
+        overflow: hidden;
+        margin-left: 10px;
+        padding-left: 5px;
+
+    }
+
+    .search {
+        width: 115px;
+        height: 40px;
+        border: 1px solid #70C05B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        border-radius: 4px;
+        margin-left: 16px;
+    }
+
+    .search input {
+        width: 50%;
+    }
+
+    .vip,
+    .orders,
+    .basket {
+        margin: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        padding: 0 6px 0 7px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+        width: 40px;
+        overflow: hidden;
+        display: flex;
+        gap: 1px;
+    }
+
+    .catalog {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 5px;
+        width: 30px;
+        overflow: hidden;
+        margin-left: 10px;
+        padding-left: 5px;
+
+    }
+
+    .search {
+        width: 80px;
+        height: 40px;
+        border: 1px solid #70C05B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        border-radius: 4px;
+        margin-left: 5px;
+    }
+
+    .search input {
+        width: 70%;
+        padding-left: 5px;
+    }
+
+    .vip,
+    .orders {
+        display: none;
+    }
+
+    .basket {
+        margin: 0;
+        margin-left: -25px;
+    }
+
+    .users {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .users .arrDown {
+        margin-left: 0px;
+        cursor: pointer;
+    }
+
+}

@@ -1,0 +1,27 @@
+.links {
+    display: flex;
+    gap: 20px;
+    background: #FBF8EC;
+    padding: 0 115px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+}
+
+.linkActive {
+    transform: scale(1.2);
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}

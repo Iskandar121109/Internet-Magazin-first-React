@@ -1,0 +1,201 @@
+.catalog {
+    background: #FBF8EC;
+    padding: 0 116px 90px 116px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    color: #414141;
+    text-align: start;
+    margin-bottom: 40px;
+}
+
+.contentTitles {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(112, 192, 91, 0) 0%, #70C05B 82.81%);
+    height: 150px;
+    width: 100%;
+    padding: 80px 10px 10px;
+    cursor: pointer;
+    transition: background 1s linear;
+}
+
+.contentTitles:hover {
+    background: linear-gradient(180deg, rgba(112, 192, 91, 0) 70%, #70C05B 99.81%);
+    transition: background 1s linear;
+}
+
+.milk {
+    display: flex;
+    align-items: flex-end;
+    width: 584px;
+    height: 200px;
+    background-image: url(/public/Catalog/milk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.6s ease-in-out;
+}
+
+.milk:hover,
+.bread:hover,
+.fruit:hover,
+.iceProduct:hover,
+.drinkables:hover,
+.confectionery:hover,
+.cofeeAndTea:hover,
+.pasta:hover:hover,
+.healthlyFood:hover,
+.zooproduct:hover,
+.kidsProduct:hover,
+.meat:hover,
+.nonFoodProduct:hover {
+    transition: 0.6s ease-in-out;
+    background-size: cover;
+    transform: scale(1.01) translateY(-1px);
+}
+
+.bread {
+    background-image: url(/public/Catalog/bread.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 272px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bread .contentTitles {
+    background: linear-gradient(180deg, rgba(255, 102, 51, 0) 0%, #FF6633 100%);
+}
+
+.bread .contentTitles:hover {
+    background: linear-gradient(180deg, rgba(112, 192, 91, 0) 70%, #FF6633 100%);
+    transition: background 1s linear;
+}
+
+.fruit {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/fruits.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.iceProduct {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/iceProduct.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.drinkables {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/dinkables.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.confectionery {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/confectionery.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cofeeAndTea {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/cofeeAndTea.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pasta {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/pasta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.healthlyFood {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/healthlyFood.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.zooproduct {
+    width: 584px;
+    height: 200px;
+    background-image: url(/public/Catalog/healthlyFood.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.kidsProduct {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/kidsProduct.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.meat {
+    width: 584px;
+    height: 200px;
+    background-image: url(/public/Catalog/Meat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nonFoodProduct {
+    width: 272px;
+    height: 200px;
+    background-image: url(/public/Catalog/nonFoodProduct.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}

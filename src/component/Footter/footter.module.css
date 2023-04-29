@@ -1,0 +1,75 @@
+.footter {
+    padding: 0 124px 0 115px;
+    background: #FBF8EC;
+    display: flex;
+    align-items: center;
+    height: 126px;
+    border-top: #cecccc solid 1px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 64px;
+    height: 44px;
+    margin-right: 40px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.logo img:hover {
+    transform: rotate(360deg);
+    transition: 1s linear;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    margin-right: 135px;
+}
+
+.links span {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #414141;
+    cursor: pointer;
+}
+.links span:hover {
+    text-decoration: underline;
+    transition: 1s ease;
+}
+.social {
+    display: flex;
+    gap: 20px;
+    margin-right: 46px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.social img:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+.namber {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.namber:hover {
+    font-weight: 510;
+}
+.namber img:hover {
+    transform: scale(1.02);
+}

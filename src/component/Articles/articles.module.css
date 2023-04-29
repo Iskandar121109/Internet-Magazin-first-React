@@ -1,0 +1,79 @@
+.articles {
+    padding: 44px 124px 90px 115px;
+    background: #FBF8EC;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleCards {
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    height: 420px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.articleCards img {
+    width: 376px;
+    height: 162px;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.articleCards strong {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #414141;
+
+}
+
+.cardBody div {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #8F8F8F;
+    text-align: start;
+}
+
+.cardBody p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+}
+
+.cardBody button {
+    background: #70C05B;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    box-shadow: 0 0 6px 0px #E5FFDE;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cardBody button:hover {
+    transform: translateY(-3px) scale(1.02);
+}
+
+.cardBody button:active {
+    transform: scale(0.98);
+}

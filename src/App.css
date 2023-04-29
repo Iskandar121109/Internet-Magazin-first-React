@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Rubik:ital,wght@0,400;0,700;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  display: grid;
+}
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
