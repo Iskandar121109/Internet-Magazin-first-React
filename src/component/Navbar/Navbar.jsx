@@ -24,7 +24,7 @@ export const Navbar = ({ count, modalLogin, setModalLogin, modCatalog,
                     <p>Новинки</p>
                     <p>Покупали раньше</p>
                     <p>Специальные предложения</p>
-                    <p>Наши магазины</p>
+                    <p>Наши магазины...</p>
                     <p>Статья</p>
                 </div>
             </div>
